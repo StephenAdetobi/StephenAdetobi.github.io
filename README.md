@@ -229,3 +229,48 @@ In summary, this dashboard allows shareholders to make changes in specific areas
 
 **Dashboard Overview:** 
 ![GlobalReport](GlobalReport.png)
+
+Power BI Project 3
+
+**Title:** [AdventureWorks Dashboard](https://github.com/StephenAdetobi/StephenAdetobi.github.io/blob/main/AdventureWorksDashboard.pbix)
+
+**Tools Used:** Charts, Filters, Slicers, Cards, Formatting Tools (Shapes, area settings), Data Cleaning and Transforming (PowerQuery), Data Modelling, Data Importing, Joins and Views (SQL)
+
+**Project Description:**
+
+This dashboard was created to concatenate a large, data heavy SQL database into a compact and easy to understand report for shareholders to understand, created using the template AdventureWorks 2012 database provided by Microsoft. It showcases the ability to import and model data, as well as the ability to create an interactive, clean and concise dashboard that can be freely augmented for the needs of shareholders with little outside input. This dahsboard contains the following features:
+
+_Total Revenue and Products Ordered_: Cards showcasing the total amount of revenue made by orders from the company as well as the total products ordered, filterable via slicers.
+
+_Average Amount Ordered and Revenue Per Order_: Cards showcasing the average amount of products bought per order as well as the average revenue made per order, filterable by slicers.
+
+_Revenue and Quantity per Month_: A bar and line graph showcasing the amount of revenue and quantity made per month, shown chronologically by year.
+
+_Total Revenue by Category_: A bar chart showing how much revenue is made by each category of product.
+
+_Top 3 Cities_: A bar chart highlighting the three cities ordering the most amount of products, filterable via slicers.
+
+_Highest Revenue Subcategories_: A bar chart displaying the three highest performing subcategories in terms of revenue, filterable via slicers.
+
+_Proportion of Orders by Territory_: A stacked bar chart created to show how much certain products are ordered in each region of the world, in a percentage proportional to how much each category was ordered, filterable via slicers.
+
+Additionally, the timeline contains slicers for:
+
+_Category_: The four categories of every product, further filterable by their subcategories.
+
+_Country_: Each individual country with recorded data, with excess filters for each city loacted within those countries.
+
+_Time_: Filters for each recorded year of service, as well as each individual month.
+
+**Key findings:**
+
+_Category Sales_: Bikes currently dominate the market worldwide, but are beginning to be overtaken in the US, Germany and Austraila in recent years, suggesting that they  may be the dominant product in the future.
+
+_Revenue Sources_: Northwest US is shown to be the single highest source of revenue for the company, in spite of having a lower product quantity per order. Canada showcases the highest revenue per order however, with Toronto being the city with the most orders by a large margin.
+
+_Trends Throughout The Year_: Sales routinely increase as the year goes on, with larger spikes taking place during May as well as the Autumn to Winter period, suggesting a large chunk of profit coming from summer sales.
+
+In summary, this dashboard would allow shareholders to drill down into data compiled and cleaned from a large database with ease, providing valuable insights into profitable cities, regions and time periods as well as altering marketing strategies around particular products. 
+
+**Dashboard Overview:** 
+![AdventureWorks Report](AdventureWorksReport.png)
